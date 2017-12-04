@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
    #get the inverse value of matrix
    getInverseMatrix<-function() myMatrix
    
-   list(setMatrixVal=setMatrixVal, getMatrixVal=getMatrixVal, setInverseMatrix=setInverseMatrix, getInverseMatrix)
+   list(setMatrixVal=setMatrixVal, getMatrixVal=getMatrixVal, setInverseMatrix=setInverseMatrix, getInverseMatrix=getInverseMatrix)
 }
 
 
